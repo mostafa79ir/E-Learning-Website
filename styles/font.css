@@ -1,0 +1,21 @@
+.be-vietnam-pro-regular {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BeVietnamPro";
+  src: url(../fonts/BeVietnamPro-Regular.ttf);
+}
+@font-face {
+  font-family: "BeVietnamProMedium";
+  src: url(../fonts/BeVietnamPro-Medium.ttf);
+}
+@font-face {
+  font-family: "BeVietnamProSemiBold";
+  src: url(../fonts/BeVietnamPro-SemiBold.ttf);
+}
+@font-face {
+  font-family: "BeVietnamProBold";
+  src: url(../fonts/BeVietnamPro-Bold.ttf);
+}

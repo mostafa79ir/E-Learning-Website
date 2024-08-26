@@ -1,0 +1,43 @@
+/* Root varibles */
+:root {
+  /* Main color pallet */
+  --primary-color: #FF9500;
+  --Orange-Shades-50: #FF9500;
+  --Orange-Shades-70: #FFBF66;
+  --Orange-Shades-75: #FFCA80;
+  --Orange-Shades-80: #FFD499;
+  --Orange-Shades-90: #FFEACC;
+  --Orange-Shades-95: #FFF4E5;
+  --Orange-Shades-97: #FFF9F0;
+  --Orange-Shades-99: #FFFDFA;
+  /* White-Shades color pallet */
+  --Neutral-White: #fff;
+  --White-Shades-90: #E4E4E7;
+  --White-Shades-95: #F1F1F3;
+  --White-Shades-97: #F7F7F8;
+  --White-Shades-99: #FCFCFD;
+  --Neutral-Black: #000;
+  /* Grey-Shades color pallet */
+  --Grey-Shades-10: #191919;
+  --Grey-Shades-15: #262626;
+  --Grey-Shades-20: #333333;
+  --Grey-Shades-30: #4C4C4D;
+  --Grey-Shades-35: #59595A;
+  --Grey-Shades-40: #656567;
+  --Grey-Shades-60: #98989A;
+  --Grey-Shades-70: #B3B3B3;
+}
+* {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  accent-color: var(--primary-color);
+}
+body {
+	font-family: BeVietnamPro,sans-serif;
+	font-size: 62.5%;
+	line-height: 1.5;
+}
