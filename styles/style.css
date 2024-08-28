@@ -40,4 +40,38 @@ body {
 	font-family: BeVietnamPro,sans-serif;
 	font-size: 62.5%;
 	line-height: 1.5;
+  background-color: var(--White-Shades-99);
+}
+.title-1 {
+	font-size: 1.5rem;
+	color: var(--Grey-Shades-15);
+	font-family: BeVietnamProSemiBold,sans-serif;
+}
+
+.title-2 {
+	font-size: 1.28rem;
+	color: var(--Grey-Shades-20);
+	font-family: BeVietnamProMedium,sans-serif;
+}
+.title-3 {
+	font-size: 0.96rem;
+	color: var(--Grey-Shades-15);
+	font-family: BeVietnamProMedium,sans-serif;
+}
+.text{
+	font-size: 0.75rem;
+	color: var(--Grey-Shades-35);
+}
+.icon{
+	width: fit-content;
+	background-color: var(--Orange-Shades-97);
+	padding: 0.7rem;
+	border: 1px solid var(--Orange-Shades-90);
+	border-radius: 6px;
+}
+.box-1 {
+	padding: 1rem;
+	background-color: var(--Neutral-White);
+	border-radius: 5px;
+	margin: 1rem 0;
 }
