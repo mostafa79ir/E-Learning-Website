@@ -67,7 +67,7 @@ body {
 .icon{
 	width: fit-content;
 	background-color: var(--Orange-Shades-97);
-	padding: 0.7rem;
+	padding: 1.37rem;
 	border: 1px solid var(--Orange-Shades-90);
 	border-radius: 6px;
 }
