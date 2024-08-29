@@ -27,6 +27,9 @@
   --Grey-Shades-60: #98989A;
   --Grey-Shades-70: #B3B3B3;
 }
+html {
+	font-size: 62.5%;
+}
 * {
   box-sizing: border-box;
   outline: 0;
@@ -38,28 +41,27 @@
 }
 body {
 	font-family: BeVietnamPro,sans-serif;
-	font-size: 62.5%;
 	line-height: 1.5;
   background-color: var(--White-Shades-97);
 }
 .title-1 {
-	font-size: 1.5rem;
+	font-size: 2.8rem;
 	color: var(--Grey-Shades-15);
 	font-family: BeVietnamProSemiBold,sans-serif;
 }
 
 .title-2 {
-	font-size: 1.28rem;
+	font-size: 2.4rem;
 	color: var(--Grey-Shades-20);
 	font-family: BeVietnamProMedium,sans-serif;
 }
 .title-3 {
-	font-size: 0.96rem;
+	font-size: 1.8rem;
 	color: var(--Grey-Shades-15);
 	font-family: BeVietnamProMedium,sans-serif;
 }
 .text{
-	font-size: 0.75rem;
+	font-size: 1.4rem;
 	color: var(--Grey-Shades-35);
 }
 .icon{
