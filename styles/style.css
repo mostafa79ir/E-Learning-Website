@@ -72,8 +72,24 @@ body {
 	border-radius: 6px;
 }
 .box-1 {
-	padding: 3.5rem;
+	padding: 3rem;
 	background-color: var(--Neutral-White);
 	border-radius: 5px;
 	margin: 2rem 0;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	--bs-gutter-x: 3.2rem;
+}
+.highlight {
+  color: var(--primary-color);
+}
+.button {
+	padding: 1.4rem 2rem;
+	font-size: 1.4rem;
+	font-family: BeVietnamProSemiBold,sans-serif;
+	color: var(--Neutral-White);
+	background-color: var(--primary-color);
+	border-radius: 6px;
+	text-decoration: none !important;
+	display: inline-block;
 }
