@@ -1,34 +1,34 @@
 /* Root varibles */
 :root {
   /* Main color pallet */
-  --primary-color: #FF9500;
-  --Orange-Shades-50: #FF9500;
-  --Orange-Shades-70: #FFBF66;
-  --Orange-Shades-75: #FFCA80;
-  --Orange-Shades-80: #FFD499;
-  --Orange-Shades-90: #FFEACC;
-  --Orange-Shades-95: #FFF4E5;
-  --Orange-Shades-97: #FFF9F0;
-  --Orange-Shades-99: #FFFDFA;
+  --primary-color: #ff9500;
+  --Orange-Shades-50: #ff9500;
+  --Orange-Shades-70: #ffbf66;
+  --Orange-Shades-75: #ffca80;
+  --Orange-Shades-80: #ffd499;
+  --Orange-Shades-90: #ffeacc;
+  --Orange-Shades-95: #fff4e5;
+  --Orange-Shades-97: #fff9f0;
+  --Orange-Shades-99: #fffdfa;
   /* White-Shades color pallet */
   --Neutral-White: #fff;
-  --White-Shades-90: #E4E4E7;
-  --White-Shades-95: #F1F1F3;
-  --White-Shades-97: #F7F7F8;
-  --White-Shades-99: #FCFCFD;
+  --White-Shades-90: #e4e4e7;
+  --White-Shades-95: #f1f1f3;
+  --White-Shades-97: #f7f7f8;
+  --White-Shades-99: #fcfcfd;
   --Neutral-Black: #000;
   /* Grey-Shades color pallet */
   --Grey-Shades-10: #191919;
   --Grey-Shades-15: #262626;
   --Grey-Shades-20: #333333;
-  --Grey-Shades-30: #4C4C4D;
-  --Grey-Shades-35: #59595A;
+  --Grey-Shades-30: #4c4c4d;
+  --Grey-Shades-35: #59595a;
   --Grey-Shades-40: #656567;
-  --Grey-Shades-60: #98989A;
-  --Grey-Shades-70: #B3B3B3;
+  --Grey-Shades-60: #98989a;
+  --Grey-Shades-70: #b3b3b3;
 }
 html {
-	font-size: 62.5%;
+  font-size: 62.5%;
 }
 * {
   box-sizing: border-box;
@@ -40,56 +40,81 @@ html {
   accent-color: var(--primary-color);
 }
 body {
-	font-family: BeVietnamPro,sans-serif;
-	line-height: 1.5;
+  font-family: BeVietnamPro, sans-serif;
+  line-height: 1.5;
   background-color: var(--White-Shades-97);
 }
 .title-1 {
-	font-size: 2.8rem;
-	color: var(--Grey-Shades-15);
-	font-family: BeVietnamProSemiBold,sans-serif;
+  font-size: 2.8rem;
+  color: var(--Grey-Shades-15);
+  font-family: BeVietnamProSemiBold, sans-serif;
 }
 
 .title-2 {
-	font-size: 2.4rem;
-	color: var(--Grey-Shades-20);
-	font-family: BeVietnamProMedium,sans-serif;
+  font-size: 2.4rem;
+  color: var(--Grey-Shades-20);
+  font-family: BeVietnamProMedium, sans-serif;
 }
 .title-3 {
-	font-size: 1.8rem;
-	color: var(--Grey-Shades-15);
-	font-family: BeVietnamProMedium,sans-serif;
+  font-size: 1.8rem;
+  color: var(--Grey-Shades-15);
+  font-family: BeVietnamProMedium, sans-serif;
 }
-.text{
-	font-size: 1.4rem;
-	color: var(--Grey-Shades-35);
+.text {
+  font-size: 1.4rem;
+  color: var(--Grey-Shades-35);
 }
-.icon{
-	width: fit-content;
-	background-color: var(--Orange-Shades-97);
-	padding: 1.37rem;
-	border: 1px solid var(--Orange-Shades-90);
-	border-radius: 6px;
+.icon {
+  width: fit-content;
+  background-color: var(--Orange-Shades-97);
+  padding: 1.37rem;
+  border: 1px solid var(--Orange-Shades-90);
+  border-radius: 6px;
 }
 .box-1 {
-	padding: 3rem;
-	background-color: var(--Neutral-White);
-	border-radius: 5px;
-	margin: 2rem 0;
+  padding: 3rem;
+  background-color: var(--Neutral-White);
+  border-radius: 5px;
+  margin: 2rem 0;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-	--bs-gutter-x: 3.2rem;
+.row {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 3.2rem;
 }
 .highlight {
   color: var(--primary-color);
 }
 .button {
-	padding: 1.4rem 2rem;
-	font-size: 1.4rem;
-	font-family: BeVietnamProSemiBold,sans-serif;
-	color: var(--Neutral-White);
-	background-color: var(--primary-color);
-	border-radius: 6px;
-	text-decoration: none !important;
-	display: inline-block;
+  padding: 1.4rem 2rem;
+  font-size: 1.4rem;
+  font-family: BeVietnamProSemiBold, sans-serif;
+  color: var(--Neutral-White);
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  text-decoration: none !important;
+  display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .title-1 {
+    font-size: 3.8rem;
+  }
+  .title-2 {
+    font-size: 3rem;
+  }
+  .title-3 {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 1.6rem;
+  }
 }
