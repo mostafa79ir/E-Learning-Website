@@ -60,6 +60,11 @@ body {
   color: var(--Grey-Shades-15);
   font-family: BeVietnamProMedium, sans-serif;
 }
+.title-4 {
+  font-size: 1.4rem;
+  color: var(--Grey-Shades-15);
+  font-family: BeVietnamProMedium, sans-serif;
+}
 .text {
   font-size: 1.4rem;
   color: var(--Grey-Shades-35);
@@ -107,6 +112,23 @@ body {
   text-decoration: none !important;
   display: inline-block;
 }
+input[type="submit"]{
+  padding: 1.4rem 2rem;
+  font-size: 1.4rem;
+  font-family: BeVietnamProSemiBold, sans-serif;
+  color: var(--Neutral-White);
+  background-color: var(--primary-color);
+  border-radius: 6px;
+}
+input,textarea {
+  font-size: 1.4rem;
+	padding: 2rem;
+	background: var(--White-Shades-99);
+	border: 1px solid var(--White-Shades-95);
+	border-radius: 6px;
+	color: var(--Grey-Shades-40);
+  width: 100%;
+}
 @media screen and (min-width: 768px) {
   .title-1 {
     font-size: 3.8rem;
@@ -116,6 +138,9 @@ body {
   }
   .title-3 {
     font-size: 2rem;
+  }
+  .title-4 {
+  font-size: 1.6rem;
   }
   .text {
     font-size: 1.6rem;
@@ -171,6 +196,9 @@ body {
   }
   .title-3 {
     font-size: 2.4rem;
+  }
+  .title-4 {
+    font-size: 1.8rem;
   }
   .text {
     font-size: 1.8rem;

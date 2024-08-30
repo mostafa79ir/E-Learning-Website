@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ContactUs</title>
+  <link href="/library/bootstrap/bootstrap.min.css" rel="stylesheet" />
+  <link href="./styles/font.css" rel="stylesheet" />
+  <link href="./styles/style.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/Logo.png">
+</head>
+
+<body>
+  <div class="container mt-5 mb-5">
+    <div class="row align-items-center pb-5">
+      <div class="title-1 mb-2 col-md-6">Contact Us</div>
+      <div class="text mt-3 col-md-6">
+        Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater to your needs: Free and
+        Pro. We believe in providing flexible and affordable pricing options for our services. Whether you're an individual
+        looking to enhance your skills or a business seeking professional development solutions, we have a plan that suits you.
+        Explore our pricing options below and choose the one that best fits your requirements.
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="box-1-12 row">
+        <div class="col-md-8">
+          <form id="usrform" action="/aboutus.html">
+            <div class="mb-4">
+                <label for="fname" class="title-4">First Name</label>
+                <input id="fname" name="fname" placeholder="Enter First Name" class="mt-3" type="text">
+            </div>
+            <div class="mb-4">
+              <label for="lname" class="title-4">Last Name</label>
+              <input id="lname" name="lname" placeholder="Enter Last Name" class="mt-3" type="text">
+            </div>
+            <div class="mb-4">
+              <label for="email" class="title-4">Email</label>
+              <input id="email" name="email" placeholder="Enter your Email" class="mt-3" type="email">
+            </div>
+            <div class="mb-4">
+              <label for="phone" class="title-4">Phone</label>
+              <input id="phone" name="phone" placeholder="Enter your Phone" class="mt-3" type="tel">
+            </div>
+            <div class="mb-4">
+              <label for="subject" class="title-4">Subject</label>
+              <input id="subject" name="subject" placeholder="Enter your Subject" class="mt-3" type="text">
+            </div>
+            <div class="mb-5">
+              <label for="message" class="title-4">Message</label>
+              <textarea id="message" name="message" placeholder="Enter your Message here..." class="mt-3" form="usrform"></textarea>
+            </div>
+            <input type="submit" value="Send Your Message">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="/library/bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
