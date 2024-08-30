@@ -130,7 +130,7 @@ input[type="submit"]{
 }
 input,textarea {
   font-size: 1.4rem;
-	padding: 2rem;
+	padding: 1.8rem;
 	background: var(--White-Shades-99);
 	border: 1px solid var(--White-Shades-95);
 	border-radius: 6px;
