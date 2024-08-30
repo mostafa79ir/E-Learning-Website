@@ -71,11 +71,11 @@ body {
   border: 1px solid var(--Orange-Shades-90);
   border-radius: 6px;
 }
-.box-1 {
+.box-1,.box-1-12 {
   padding: 3rem;
   background-color: var(--Neutral-White);
   border-radius: 5px;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .row {
   margin-top: 0;
@@ -116,5 +116,60 @@ body {
   }
   .text {
     font-size: 1.6rem;
+  }
+  .box-1 {
+    width: calc(50% - 2rem);
+    margin: 1rem;
+  }
+  .m-5{
+    margin: 6rem !important;
+  }
+  .m-4{
+    margin: 4rem !important;
+  }
+  .mb-5 {
+	  margin-bottom: 6rem !important;
+  }
+  .mb-4 {
+	  margin-bottom: 4rem !important;
+  }
+  .mt-5 {
+	  margin-top: 6rem !important;
+  }
+  .mt-4 {
+	  margin-top: 4rem !important;
+  }
+  .p-5{
+    padding: 6rem !important;
+  }
+  .p-4{
+    padding: 4rem !important;
+  }
+  .pb-5 {
+	  padding-bottom: 6rem !important;
+  }
+  .pb-4 {
+	  padding-bottom: 4rem !important;
+  }
+  .pt-5 {
+	  padding-top: 6rem !important;
+  }
+  .pt-4 {
+	  padding-top: 4rem !important;
+  }
+ 
+}
+@media screen and (min-width: 1600px) {
+  .title-1 {
+    font-size: 4.8rem;
+  }
+  .title-2 {
+    font-size: 4.8rem;
+  }
+  .title-3 {
+    font-size: 2.4rem;
+  }
+  .text {
+    font-size: 1.8rem;
   }
 }
