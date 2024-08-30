@@ -76,6 +76,14 @@ body {
   border: 1px solid var(--Orange-Shades-90);
   border-radius: 6px;
 }
+.icon-gray {
+	background: var(--White-Shades-97);
+	border: 1px solid var(--White-Shades-95);
+}
+.back-gray{
+  background: var(--White-Shades-99);
+	border: 1px solid var(--White-Shades-95);
+}
 .box-1,.box-1-12 {
   padding: 3rem;
   background-color: var(--Neutral-White);
