@@ -138,10 +138,29 @@ input,textarea {
   width: 100%;
 }
 input[type="checkbox"] {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
-
+.text-between-lines{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+	font-size: 1.4rem;
+	color: var(--Grey-Shades-60);
+}
+.text-between-lines::before,
+.text-between-lines::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid var(--White-Shades-90);
+}
+.text-between-lines::before {
+    margin-right: 1rem;
+}
+.text-between-lines::after {
+    margin-left: 1rem;
+}
 .show-password{
 	margin-left: -40px;
 	position: relative;
