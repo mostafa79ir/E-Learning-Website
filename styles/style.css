@@ -137,6 +137,20 @@ input,textarea {
 	color: var(--Grey-Shades-40);
   width: 100%;
 }
+input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
+
+.show-password{
+	margin-left: -40px;
+	position: relative;
+	z-index: 2;
+  cursor: pointer;
+}
+.pe-10{
+  padding-right: 5rem;
+}
 @media screen and (min-width: 768px) {
   .title-1 {
     font-size: 3.8rem;
