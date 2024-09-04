@@ -146,6 +146,15 @@ a{
   border-radius: 6px;
   text-decoration: none !important;
   display: inline-block;
+  cursor: pointer;
+}
+.button-white {
+	padding: 1.4rem 2rem;
+	font-size: 1.4rem;
+	color: var(--Grey-Shades-30);
+	text-decoration: none !important;
+	display: inline-block;
+  cursor: pointer;
 }
 input[type="submit"]{
   padding: 1.4rem 2rem;
@@ -196,6 +205,9 @@ input[type="checkbox"] {
 }
 .pe-10{
   padding-right: 5rem;
+}
+.w-fit-content{
+  width: fit-content;
 }
 @media screen and (min-width: 768px) {
   .title-1 {
@@ -295,4 +307,19 @@ input[type="checkbox"] {
 
 .swiper-button-next {
   background-image: url("../icons/right-swiper.svg") !important;
+}
+.accordion {
+	--bs-accordion-color: var(--Grey-Shades-35);
+	--bs-accordion-bg: var(--White-Shades-97);
+  --bs-accordion-border-color: var(--White-Shades-95);
+	--bs-accordion-btn-color: var(--Grey-Shades-15);
+	--bs-accordion-btn-bg: var(--White-Shades-95);
+	--bs-accordion-btn-icon: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0ZGRjRFNiIvPgo8cGF0aCBkPSJNMTUgMjBIMjBNMjUgMjBIMjBNMjAgMjBWMTVNMjAgMjBWMjUiIHN0cm9rZT0iIzI2MjYyNiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+");
+	--bs-accordion-btn-active-icon: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0ZGRjRFNiIvPgo8cGF0aCBkPSJNMTUuNjMwNiAyNC4zNjg5TDE5Ljk5OTUgMjBNMjQuMzY4MyAxNS42MzExTDE5Ljk5OTUgMjBNMTkuOTk5NSAyMEwxNS42MzA2IDE1LjYzMTFNMTkuOTk5NSAyMEwyNC4zNjgzIDI0LjM2ODkiIHN0cm9rZT0iIzI2MjYyNiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+");
+	--bs-accordion-body-padding-x: 1.25rem;
+	--bs-accordion-body-padding-y: 1rem;
+	--bs-accordion-active-color: var(--Grey-Shades-15);
+	--bs-accordion-active-bg: var(--White-Shades-95);
+  --bs-accordion-btn-icon-width: 4rem;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--White-Shades-95);
 }
