@@ -69,6 +69,11 @@ body {
   font-size: 1.4rem;
   color: var(--Grey-Shades-35);
 }
+.big-text{
+  font-size: 5rem;
+  color: var(--Grey-Shades-15);
+  font-family: BeVietnamProSemiBold, sans-serif;
+}
 .icon {
   width: fit-content;
   background-color: var(--Orange-Shades-97);
@@ -83,6 +88,10 @@ body {
 .back-gray{
   background: var(--White-Shades-99);
 	border: 1px solid var(--White-Shades-95);
+}
+.back-orange{
+	background-color: var(--Orange-Shades-97);
+	border: 1px solid var(--Orange-Shades-90);
 }
 .box-1,.box-1-12 {
   padding: 3rem;
@@ -204,6 +213,9 @@ input[type="checkbox"] {
   .text {
     font-size: 1.6rem;
   }
+  .big-text{
+  font-size: 6rem;
+  }
   .box-1 {
     width: calc(50% - 2rem);
     margin: 1rem;
@@ -261,6 +273,9 @@ input[type="checkbox"] {
   }
   .text {
     font-size: 1.8rem;
+  }
+  .big-text{
+    font-size: 8rem;
   }
 }
 
