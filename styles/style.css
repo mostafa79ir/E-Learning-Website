@@ -60,6 +60,9 @@ body {
   color: var(--Grey-Shades-15);
   font-family: BeVietnamProMedium, sans-serif;
 }
+.title-3-5 {
+  font-size: 1.6rem;
+}
 .title-4 {
   font-size: 1.4rem;
   color: var(--Grey-Shades-15);
@@ -310,8 +313,7 @@ input[type="checkbox"] {
 }
 .accordion {
 	--bs-accordion-color: var(--Grey-Shades-35);
-	--bs-accordion-bg: var(--White-Shades-97);
-  --bs-accordion-border-color: var(--White-Shades-95);
+	--bs-accordion-bg: transparent;
 	--bs-accordion-btn-color: var(--Grey-Shades-15);
 	--bs-accordion-btn-bg: var(--White-Shades-95);
 	--bs-accordion-btn-icon: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iNiIgZmlsbD0iI0ZGRjRFNiIvPgo8cGF0aCBkPSJNMTUgMjBIMjBNMjUgMjBIMjBNMjAgMjBWMTVNMjAgMjBWMjUiIHN0cm9rZT0iIzI2MjYyNiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+");
@@ -322,4 +324,8 @@ input[type="checkbox"] {
 	--bs-accordion-active-bg: var(--White-Shades-95);
   --bs-accordion-btn-icon-width: 4rem;
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--White-Shades-95);
+  --bs-accordion-border-color: transparent;
+}
+.accordion-button::after {
+	margin-left: 4rem;
 }
