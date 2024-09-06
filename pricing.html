@@ -32,13 +32,13 @@
   </div>
   <div class="container mt-5 mb-5">
     <div class="row">
-      <div class="box-1-12 row">
-        <div class="col-md-8 text-center">
+      <div class="box-1-12 p-3 row  col-md-6">
+        <div class="text-center back-gray rounded-10 py-4 px-3 m-3">
           <div class="rounded-3 title-4 px-5 py-3 back-orange">Free Plan</div>
           <div class="text my-3  free-month"><span class="big-text">$0</span>/month</div>
           <div class="text my-3  free-year d-none"><span class="big-text">$0</span>/year</div>
           <div class="title-3 title-3-5 py-3 px-4 py-3">Available Features</div>
-          <div class="text my-4 text-start">
+          <div class="text my-4 text-start ">
             <div class="pb-4 d-flex p-3">
               <span class="me-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -125,13 +125,8 @@
           <a href="./contactus.html" class="button w-100">Get Started</a>
         </div>
       </div>
-
-    </div>
-  </div>
-  <div class="container mt-5 mb-5">
-    <div class="row">
-      <div class="box-1-12 row">
-        <div class="col-md-8 text-center">
+      <div class="box-1-12 p-3 col-md-6 row">
+        <div class="text-center back-gray rounded-10 py-4 px-3 m-3">
           <div class="rounded-3 title-4 px-5 py-3 back-orange">Pro Plan</div>
           <div class="text my-3 pro-month"><span class="big-text">$79</span>/month</div>
           <div class="text my-3 pro-year d-none"><span class="big-text"><del
@@ -146,10 +141,10 @@
                     d="M17.3621 7.32297C17.6256 7.52379 17.6765 7.90027 17.4757 8.16385L11.0757 16.5639C10.9708 16.7016 10.8115 16.7873 10.6387 16.7989C10.466 16.8105 10.2966 16.7469 10.1742 16.6245L6.57417 13.0245C6.33986 12.7902 6.33986 12.4103 6.57417 12.176C6.80849 11.9416 7.18839 11.9416 7.4227 12.176L10.5372 15.2905L16.5212 7.4366C16.722 7.17302 17.0985 7.12214 17.3621 7.32297Z"
                     fill="#262626"></path>
                 </svg></span>
-
+      
               <span>Unlimited access to all courses.</span>
             </div>
-
+      
             <div class="pb-4 d-flex p-3">
               <span class="me-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -228,23 +223,26 @@
     </div>
   </div>
   <div class="container mt-5 mb-5">
-    <div class="box-1-12">
-      <div class="title-1 mb-1">Frequently Asked Questions</div>
-      <div class="text mt-3">
-        Still you have any questions? Contact our Team via support@skillbridge.com
+    <div class="box-1-12 row">
+      <div class="col-md-5 mb-5">
+          <div class="title-1 mb-1">Frequently Asked Questions</div>
+          <div class="text mt-3">
+            Still you have any questions? Contact our Team via support@skillbridge.com
+          </div>
+          <a href="#" class="icon-gray rounded-6 px-4 py-3 mt-4 title-4 w-fit-content d-block">See All FAQ’s</a>
       </div>
-      <a href="#" class="icon-gray rounded-6 px-4 py-3 mt-4 title-4 w-fit-content d-block">See All FAQ’s</a>
-      <div class="accordion mt-5 text" id="accordionExample">
+      <div class="col-md-1"></div>
+      <div class="accordion text col-md-6" id="accordionFaq">
         <div class="accordion-item my-4 rounded-6">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button rounded-6 title-3 title-3-5 py-3 px-4" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Can I enroll in multiple courses at once?
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <div class="accordion-btn-text">Can I enroll in multiple courses at once?</div>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body mt-3 pt-4 pb-3 ">
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body mt-3 py-3 ">
               Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
             </div>
           </div>
@@ -253,12 +251,12 @@
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button rounded-6 collapsed title-3 title-3-5 py-3 px-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              What kind of support can I expect from instructors?
+              <div class="accordion-btn-text">What kind of support can I expect from instructors?</div>
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body mt-3 pt-4 pb-3 ">
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body mt-3 py-3 ">
               Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
             </div>
           </div>
@@ -267,12 +265,12 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button rounded-6 collapsed title-3 title-3-5 py-3 px-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Are the courses self-paced or do they have specific start and end dates?
+              <div class="accordion-btn-text">Are the courses self-paced or do they have specific start and end dates?</div>
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body mt-3 pt-4 pb-3 ">
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body mt-3 py-3 ">
               Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
             </div>
           </div>
@@ -281,26 +279,26 @@
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button rounded-6 collapsed title-3 title-3-5 py-3 px-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Are there any prerequisites for the courses?
+              <div class="accordion-btn-text">Are there any prerequisites for the courses?</div>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body mt-3 pt-4 pb-3 ">
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body mt-3 py-3 ">
               Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
             </div>
           </div>
         </div>
-        <div class="accordion-item mt-4 rounded-6">
+        <div class="accordion-item rounded-6">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button rounded-6 collapsed title-3 title-3-5 py-3 px-4" type="button" data-bs-toggle="collapse"
               data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              Can I download the course materials for offline access?
+              <div class="accordion-btn-text">Can I download the course materials for offline access?</div>
             </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body mt-3 pt-4 pb-3 ">
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body mt-3 py-3 ">
               Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
             </div>
           </div>

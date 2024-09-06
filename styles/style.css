@@ -271,7 +271,6 @@ input[type="checkbox"] {
   .pt-4 {
 	  padding-top: 4rem !important;
   }
- 
 }
 @media screen and (min-width: 1600px) {
   .title-1 {
@@ -326,6 +325,6 @@ input[type="checkbox"] {
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem var(--White-Shades-95);
   --bs-accordion-border-color: transparent;
 }
-.accordion-button::after {
-	margin-left: 4rem;
+.accordion-btn-text{
+  margin-right: 4rem;
 }
