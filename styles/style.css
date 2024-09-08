@@ -292,7 +292,12 @@ input[type="checkbox"] {
     font-size: 8rem;
   }
 }
-
+.font-bold{
+  font-family: BeVietnamProSemiBold, sans-serif;
+}
+.w-33{
+  width: 33.33333333%;
+}
 .swiper-button-prev::after, .swiper-button-next::after {
 	content: '';
 }
