@@ -77,6 +77,19 @@ body {
   color: var(--Grey-Shades-15);
   font-family: BeVietnamProSemiBold, sans-serif;
 }
+.semi-big-text{
+  font-size: 4rem;
+  color: var(--Grey-Shades-15);
+  font-family: BeVietnamProSemiBold, sans-serif;
+}
+.gray-20{
+  color: var(--Grey-Shades-20);
+}
+.separator {
+    background-color: var(--White-Shades-95);
+    width: 85%;
+    height: 1px;
+}
 .icon {
   width: fit-content;
   background-color: var(--Orange-Shades-97);
@@ -231,6 +244,9 @@ input[type="checkbox"] {
   .big-text{
   font-size: 6rem;
   }
+  .semi-big-text{
+    font-size: 5rem;
+  }
   .box-1 {
     width: calc(50% - 2rem);
     margin: 1rem;
@@ -271,6 +287,10 @@ input[type="checkbox"] {
   .pt-4 {
 	  padding-top: 4rem !important;
   }
+  .separator {
+    width: 1px;
+    height: 85%;
+  }
 }
 @media screen and (min-width: 1600px) {
   .title-1 {
@@ -290,6 +310,9 @@ input[type="checkbox"] {
   }
   .big-text{
     font-size: 8rem;
+  }
+  .semi-big-text{
+    font-size: 6rem;
   }
 }
 .font-bold{
