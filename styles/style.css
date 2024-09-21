@@ -92,6 +92,9 @@ body {
     width: 85%;
     height: 1px;
 }
+.text-moz-end{
+  text-align: -moz-right;
+}
 .icon {
   width: fit-content;
   background-color: var(--Orange-Shades-97);
@@ -110,6 +113,13 @@ body {
 .back-orange{
 	background-color: var(--Orange-Shades-97);
 	border: 1px solid var(--Orange-Shades-90);
+}
+.icon-orange{
+	background-color: var(--Orange-Shades-90);
+}
+.box-orange{
+  border: 1px solid var(--Orange-Shades-70);
+  box-shadow: 0px 0px 0px 4px var(--Orange-Shades-95);
 }
 .box-1,.box-1-12 {
   padding: 3rem;
